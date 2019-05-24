@@ -57,7 +57,7 @@ ADD http://www.eicar.org/download/eicar.com.txt /malware/EICAR
 WORKDIR /malware
 
 ENTRYPOINT ["/bin/avscan"]
-CMD ["--help"]
+CMD ["web"]
 
 ####################################################
 ####################################################
